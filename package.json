@@ -7,46 +7,22 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "start": "nodemon server.js"
+
   },
   "dependencies": {
-    "@auth0/auth0-spa-js": "^1.22.6",
-    "@braid/vue-formulate": "^2.5.3",
-    "@chakra-ui/vue": "^0.13.1",
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-brands-svg-icons": "^5.15.4",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@inotom/vue-go-top": "^1.3.0",
-    "@vue-a11y/dark-mode": "^0.2.0",
-    "bootstrap": "^4.6.2",
-    "core-js": "^3.32.0",
-    "emotion": "^10.0.27",
-    "express": "^4.18.2",
-    "i": "^0.3.7",
-    "imagehover.css": "^2.0.0",
-    "jquery": "^3.7.0",
-    "npm": "^6.14.18",
-    "popper.js": "^1.16.1",
-    "register-service-worker": "^1.7.2",
-    "serve-static": "^1.15.0",
-    "swiper": "^5.4.5",
-    "vue": "^2.7.14",
-    "vue-awesome-swiper": "^4.1.1",
-    "vue-fontawesome": "^0.0.2",
-    "vue-navigation-bar": "^2.1.1",
-    "vue-picture-swipe": "^1.2.0",
-    "vue-router": "^3.6.5",
-    "vuex": "^3.6.2",
-    "vuex-persistedstate": "^3.2.1"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/eslint-parser": "^7.12.16",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "eslint": "^8.2.0",
-    "eslint-plugin-vue": "^8.2.0"
-  },
+    "vue": "^3.2.13",
+    "core-js": "^3.19.1"
+   
+},
+
+"devDependencies": {
+  "@vue/cli-plugin-babel": "~5.0.0",
+  "@vue/cli-plugin-eslint": "~5.0.0",
+  "@vue/cli-service": "~5.0.0",
+  "eslint": "^7.32.0",
+  "eslint-plugin-vue": "^8.0.3"
+},
+
   "eslintConfig": {
     "root": true,
     "env": {
